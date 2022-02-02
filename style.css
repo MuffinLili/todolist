@@ -1,0 +1,135 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Calligraffitti', cursive;
+    background-image: url(./floralleft.jpg), url(./floralright.jpg);
+    /* background-image: url(https://www.seekpng.com/png/detail/12-122649_watercolor-floral-composition-free-download-watercolor-floral-transparent.png); */
+    background-position: left, right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f6f6f6;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.content {
+    border: 1px solid;
+    border-radius: 20px;
+    min-height: 500px;
+    max-width: 55%;
+    background-color: #f6f1e483;
+    margin: auto;
+    position: relative;
+    font-size: 24px;
+
+}
+
+.content p {
+    padding-left: 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    outline: none;
+}
+
+.content p:hover {
+    cursor: pointer;
+    background-color: #fafafa;
+
+}
+.toDoList li {
+    padding-top: 15px;
+    padding-left: 15px;
+    transition: 0.3s;
+}
+
+.toDoList li:hover {
+    cursor: pointer;
+    text-shadow: 1.5px 1px 3px ;
+}
+
+.inputField {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px 20px;
+    display: flex;
+
+}
+
+.inputField input {
+    display: block;
+    width: 100%;
+    border: 1px solid #dacfb6de;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px 20px ;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: 'Calligraffitti', cursive;
+
+}
+.inputField input:hover {
+    cursor: pointer;
+    border: 1px solid #a18439;
+    box-shadow: 2px 1.5px 3px #a18339a9 ;
+    
+}
+
+.inputField input::placeholder {
+    font-family: 'Calligraffitti', cursive;
+    color: rgba(0, 0, 0, 0.486);
+    background-color: #f6f6f6;
+
+}
+
+.inputField button {
+    font-size: 30px;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #dacfb6de;
+    border-radius: 22px;
+    margin-left: 10px;
+    transition: 0.3s;
+    background-color: #f6f6f6;
+}
+
+.inputField button:hover {
+    cursor: pointer;
+    border: 1px solid #a18439;
+    box-shadow: 2px 1.5px 3px #a18339a9 ;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Comforter', cursive;
+    text-shadow: 2px 1.5px 3px #1f1e1e;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-image: url(./pinpng.com-watercolor-brush-stroke-png-6901299.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.done {
+text-decoration: line-through 1px solid black;
+}
+
+.hide {
+    display: none;
+    }
+    
